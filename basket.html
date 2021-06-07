@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>
+           Payment
+       </title>
+       <link rel="stylesheet" href="css/index.css">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+       <style>
+           
+.payment-container{
+    display:flex;
+    flex-direction: column;}
+    .payment-container__1{
+        width:100%;
+        height:40%;
+        padding:2rem;
+        border-bottom: 1px solid lightgray;}
+        .payment-container__1--heading{  
+            display:flex;
+            margin-left:14rem;
+            margin-right:22rem;
+            justify-content: space-around;
+            font-weight:600;
+            color:gray;
+        }
+        
+        .payment-container__1--seekbar{
+            display:flex;
+            justify-content: center;}
+            .payment-container__1--seekbar--1{
+                display:flex;
+                align-items:center;}
+                
+                .payment-container__1--seekbar--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                .payment-container__1--seekbar--line{
+                    width:22rem;
+                    height:2px;
+                    background-color:gray;
+                }
+            
+            .payment-container__1--seekbar--2{
+                display:flex;
+                align-items:center;}
+                
+                .payment-container__1--seekbar--2--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                .payment-container__1--seekbar--2--line{
+                    width:22rem;
+                    height:2px;
+                    background-color:gray;
+                }
+            
+                .payment-container__1--seekbar--3{
+                display:flex;
+                align-items:center;}
+                .payment-container__1--seekbar--3--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                .payment-container__1--seekbar--3--line{
+                    width:22rem;
+                    height:2px;
+                    background-color:gray;
+                }
+                .payment-container__1--seekbar--4{
+                display:flex;
+                align-items:center;}
+                .payment-container__1--seekbar--4--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                .payment-container__1--seekbar--4--line{
+                    width:22rem;
+                    height:2px;
+                    background-color:gray;
+                }
+                .payment-container__1--seekbar--5{
+                display:flex;
+                align-items:center;}
+                .payment-container__1--seekbar--5--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                .payment-container__1--seekbar--5--line{
+                    width:22rem;
+                    height:2px;
+                    background-color:gray;
+                }
+                .banner{
+                    width:100%;
+                    background-image:url(img/banneradhyay.jpg);
+                    height:30vh;
+                }
+                .banner p{
+                    color:white;
+                    font-size:11rem;
+                    display:flex;
+                    justify-content: flex-end;
+                    padding:5rem;
+                    font-family: 'Limelight', cursive;
+                }
+                .signin-container__textbox--inputs--1{
+                }
+                .fa{
+                    position: absolute;
+                    top:1rem;
+                    right:1rem;
+                }
+                .input-promo{
+                    padding:1rem 1rem;
+                }
+       </style>
+                               
+   </head>
+   <body>
+          <!-----------------------------MENU------------------------------------>
+
+<div class="menu">
+    <div class="menu__header">
+      <div class="menu__header--1">
+        <ul>
+          <li><a href="https://adhyay.co.in/" style="font-size:1.6rem;">HOME</a></li>
+        </ul>
+      </div>
+      <div class="menu__header--2">
+        <ul>
+          <li><a href="LMS.html" style="font-size:1.6rem;">LMS</a></li>
+        </ul>
+      </div>
+         <div class="menu__header--2">
+        <ul>
+          <li><a href="LMS.html" style="font-size:1.6rem;">Video Conferencing</a></li>
+        </ul>
+      </div>
+            <div class="menu__header--2">
+        <ul>
+          <li><a href="content.html#" style="font-size:1.6rem;">LMS + Video Conferencing</a></li>
+        </ul>
+      </div>
+            <div class="menu__header--3">
+        <ul>
+          <li><a href="SRMS.html#" style="font-size:1.6rem;">ERP</a></li>
+        </ul>
+      </div>
+      <div class="menu__header--2">
+        <ul>
+          <li><a href="LMS+ERP.html" style="font-size:1.6rem;">LMS + ERP</a></li>
+        </ul>
+      </div>
+  
+      <div class="menu__header--3">
+        <ul>
+          <li><a href="vc.html#" style="font-size:1.6rem;">LMS + Video Conferencing + ERP</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <div class="payment-container">
+        <div class="payment-container__1">
+             <img src="img/AY_blue.png" style="width:4%; height:4%; margin:1.5rem" alt="adhyay" class="payment-container__1--image"/>
+             <div class="payment-container__1--heading">
+                 <div class="payment-container__1--heading--1">
+                     SIGN IN<br>
+                 </div>
+                 <div class="payment-container__1--heading--2">
+                     BASKET<br>
+                 </div>
+                 <div class="payment-container__1--heading--3">
+                     BILLING<br>
+                 </div>
+                 <div class="payment-container__1--heading--4">
+                     CHECKOUT<br>
+                 </div>
+             </div>
+
+             <div class="payment-container__1--seekbar">
+                 
+                 <div class="payment-container__1--seekbar--1">
+                 
+                 <div class="payment-container__1--seekbar--1--dot" style="background-color:#60d824;">
+
+                 </div>
+                 <div class="payment-container__1--seekbar--1--line" style="color:#60d824;">
+                     
+                 </div>
+                 </div>
+                 <div class="payment-container__1--seekbar--2">
+                     
+                     <div class="payment-container__1--seekbar--2--dot" style="background-color:#60d824; border:1px solid #60d824;">
+ 
+                     </div>
+                     <div class="payment-container__1--seekbar--2--line" style="background-color:#60d824; border:1px solid #60d824;">
+                         
+                     </div>
+                     </div>
+                     <div class="payment-container__1--seekbar--3">
+                     
+                         <div class="payment-container__1--seekbar--3--dot">
+     
+                         </div>
+                         <div class="payment-container__1--seekbar--3--line">
+                             
+                         </div>
+                         </div>
+                         <div class="payment-container__1--seekbar--4">
+                      
+                             <div class="payment-container__1--seekbar--4--dot">
+         
+                             </div>
+                             <div class="payment-container__1--seekbar--4--line">
+                                 
+                             </div>
+                             </div>
+                             <div class="payment-container__1--seekbar--5">
+                                 
+                                 <div class="payment-container__1--seekbar--5--dot">
+             
+                                 </div>
+                                 <div class="payment-container__1--seekbar--5--line">
+                                     
+                                 </div>
+                                 <div class="payment-container__1--seekbar--5--dot">
+             
+                                 </div>
+                                 </div>
+                             </div>
+             </div>
+        </div>
+        <div class="banner">
+               <p>ADHYAY</p>
+           </div>
+           <div class="payment-container__2" style="border-radius:9px;">
+
+            
+            <!-------------------------------BASKET------------------------------------------->
+           
+           
+            <div class="basket-container" style="border-radius:9px; width:100%">
+                <div class="basket-container__1" style="border-radius:9px;">
+                    <div class="basket-container__1--flex1">
+                        <div class="basket-container__1--flex1--heading">
+                            Select your plan:
+                        </div>
+                        <div class="basket-container__1--flex1--select">
+                            <select class="payment-duration">
+                                <option value="standard">standard</option>
+                                <option value="premium">premium</option>
+                                <option value="advance">advance</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="basket-container__1--flex1">
+                        <div class="basket-container__1--flex1--heading">
+                            Select duration:
+                        </div>
+                        <div class="basket-container__1--flex1--select">
+                            <select class="payment-duration">
+                                <option value="3 months">3 months</option>
+                                <option value="6 months">6 months</option>
+                                <option value="12 months">12 months</option>
+                            </select>
+                        </div>                    </div>
+                    </div>
+                    
+                <div class="basket-container__2">
+                    <div class="basket-container__2--offer">
+                        <a href="#" class="basket-container__2--offer--link">View offers</a>
+                    </div>
+                    <div class="basket-container__2--empty">
+                        <a href="#" class="basket-container__2--empty--empty-cart"><i class="fa fa-trash" aria-hidden="true" style="color: red; font-size:2rem; transform:translateY(-11px);"></i></a>
+                    </div>
+                </div>
+                <div class="basket-container__3">
+                    <div class="basket-container__3--subtotal">
+                        Subtotal
+                    </div>
+                    <div class="basket-container__3--price">
+                        <input type="text" class="basket-container__3--price--input" style="width:13rem;" value="$123456789"/>
+                    </div>
+                </div>
+                <div class="basket-container__4">
+                    <div class="basket-container__4--text1">
+                        Subtotal does not include applicable taxes
+                    </div>
+                    <div class="basket-container__4--text2">
+                        <a href="#">Have a promo code?</a>
+                        <br>
+                        <input type="text" class="input-promo"/>
+                    </div>
+                </div>
+                <div class="basket-container__5">
+                    <a href="billing.html" style="background-color: #07356d; color:white; text-align: center; padding:1rem;"> Proceed to Checkout</a>
+                </div>
+           </div>
+            </div>
+    <!----------------------------------FOOTER------------------------------------->
+<div class="footerr">
+    <div class="footerr__div1">
+      <div class="footerr__div1--1">
+        <ul>
+          <li class="list-heading">Sitemap</li>
+          <li>Home</li>
+          <li>LMS</li>
+          <li>LMS + ERP</li>
+          <li>LMS + Video Conferencing</li>
+          <li>ERP</li>
+          <li>LMS + ERP + Video Conferencing</li>
+        </ul>
+      </div>
+      <div class="footerr__div1--2">
+        <ul>
+          <li class="list-heading">Services</li>
+          <li>Software As a Service</li>
+          <li>Tools for problem solving</li>
+          <li>Seamless customer service</li>
+          <li>Top User Interface</li>
+          <li>Featuring artistic technology</li>
+          <li>Encrypted data/information</li>
+          <li>Secured cloud based service</li>
+        </ul>
+      </div>
+      <div class="footerr__div1--3">
+        <ul>
+          <li class="list-heading">Adhyay Values</li>
+          <li>Privacy Policy</li>
+          <li>Technology revolution</li>
+          <li>Valuable product</li>
+          <li>Global solution</li>
+          <li>Robust automation</li>
+          <li>Eco friendly solution</li>
+          <li>Human-like technology</li>
+        </ul>
+      </div>
+      <div class="footerr__div1--4">
+        <ul>
+          <li class="list-heading">For Schools</li>
+          <li>Automation</li>
+          <li>Security</li>
+          <li>Communication</li>
+          <li>Information</li>
+          <li class="list-heading">For Corporates</li>
+          <li>Automation</li>
+          <li>Security</li>
+          <li>Advancement</li>
+        </ul>
+      </div>
+      <div class="footerr__div1--5">
+        <ul>
+          <li class="list-heading">Video Conferencing</li>
+          <li>Automation</li>
+          <li>Security</li>
+          <li>Communication</li>
+          <li>Information</li>
+        </ul>
+      </div>
+    </div>
+      <div class="footerr__div2">
+        © Copyrights with Adhyay. All rights are reserved.
+    </div>
+    
+  </div>
+  
+   </body>
+</html>

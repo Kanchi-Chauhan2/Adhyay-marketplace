@@ -1,0 +1,130 @@
+.payment-container{
+    display:flex;
+    flex-direction: column;
+    &__1{
+        width:100%;
+        height:40%;
+        padding:2rem;
+        border-bottom: 1px solid lightgray;
+        &--heading{  
+            display:flex;
+            margin-left:14rem;
+            margin-right:22rem;
+            justify-content: space-around;
+            font-weight:600;
+            color:gray;
+        }
+        
+        &--seekbar{
+            display:flex;
+            justify-content: center;
+            &--1{
+                display:flex;
+                align-items:center;
+                
+                &--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                &--line{
+                    width:22rem;
+                    height:2px;
+                    background-color:gray;
+                }
+            }
+            &--2{
+                display:flex;
+                align-items:center;
+                &--heading{  
+                    display:inline-block;
+                }
+                &--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                &--line{
+                    width:22rem;
+                    height:2px;
+                    background-color:gray;
+                }
+            }
+            &--3{
+                display:flex;
+                align-items:center;
+
+                &--heading{  
+                    display:inline-block;
+                }
+                &--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                &--line{
+                    width:22rem;
+                    height:2px;
+                    background-color:gray;
+                }
+            }
+            &--4{
+                display:flex;
+                align-items:center;
+
+                &--heading{  
+                    display:inline-block;
+                }
+                &--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                &--line{
+                    width:22rem;
+                    height:2px;
+                    background-color:gray;
+                }
+            }
+            &--5{
+                display:flex;
+                align-items:center;
+
+                &--heading{  
+                    display:inline-block;
+                }
+                &--dot{
+                    display:inline;
+                    width:13px;
+                    height:14px;
+                    border-radius: 50%;
+                    border:3px solid gray;
+                }
+                
+            }
+        }
+    }
+    &__2{
+        margin:8rem auto;
+        width:50%;
+        height:80%;
+        padding:2rem;
+        border:1px solid gray;
+        border-radius:9px;
+        &--box{
+            width:70%;
+            height:70%;
+            &--select{
+                
+            }
+        }
+    }
+}
